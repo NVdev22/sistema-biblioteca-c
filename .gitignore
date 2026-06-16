@@ -1,0 +1,11 @@
+# Compilado
+*.exe
+*.o
+*.out
+
+# Pastas do editor/ferramenta
+.vscode/
+.claude/
+
+# PDFs
+*.pdf
