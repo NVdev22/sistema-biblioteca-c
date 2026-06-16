@@ -3,9 +3,8 @@
 *.o
 *.out
 
-# Pastas do editor/ferramenta
+# Pasta do editor
 .vscode/
-.claude/
 
 # PDFs
 *.pdf
