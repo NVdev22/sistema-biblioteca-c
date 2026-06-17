@@ -37,7 +37,7 @@ Após a compilação, execute o sistema a partir do mesmo diretório:
 
 **Windows:**
 ```bash
-biblioteca.exe
+./biblioteca.exe
 ```
 
 **Linux/macOS:**
