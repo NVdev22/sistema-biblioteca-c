@@ -16,18 +16,36 @@ Cada livro cadastrado no acervo possui, acoplada a ele, uma **Fila de Reserva (F
 Além disso, o sistema conta com uma **Lista Encadeada** dedicada para armazenar o **histórico de empréstimos**. Essa estrutura funciona de forma que os empréstimos mais recentes sejam inseridos no início da lista, mantendo os registros antigos no fim, facilitando a auditoria das movimentações recentes.
 
 ## 🔧 Instruções para Compilação
-Para compilar o projeto completo, certifique-se de que todos os arquivos `.c` e `.h` estão presentes no mesmo diretório. Abra o terminal e execute o seguinte comando:
 
+Certifique-se de que todos os arquivos `.c` e `.h` estão presentes no mesmo diretório. Abra o terminal (Prompt de Comando, PowerShell ou Git Bash) na pasta do projeto e execute:
+
+**Windows:**
+```bash
+gcc main.c livro.c arvore.c fila.c lista.c -o biblioteca.exe
+```
+
+**Linux/macOS:**
 ```bash
 gcc main.c livro.c arvore.c fila.c lista.c -o biblioteca
 ```
 
-## 🚀 Instruções para Execução
-Após a compilação bem-sucedida, o sistema pode ser inicializado através do comando:
+> Requisito: compilador GCC instalado. No Windows, recomenda-se o [MinGW-w64](https://www.mingw-w64.org/) ou o GCC disponível via MSYS2.
 
+## 🚀 Instruções para Execução
+
+Após a compilação, execute o sistema a partir do mesmo diretório:
+
+**Windows:**
+```bash
+biblioteca.exe
+```
+
+**Linux/macOS:**
 ```bash
 ./biblioteca
 ```
+
+O sistema abrirá um menu interativo no terminal. Navegue pelas opções digitando o número correspondente e pressionando Enter.
 
 ## 👨🏻‍💻 Exemplos de Uso
 Ao iniciar o sistema, um menu interativo é exibido no terminal. Abaixo estão descritos os fluxos principais de utilização:
